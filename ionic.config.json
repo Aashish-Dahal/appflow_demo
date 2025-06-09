@@ -1,0 +1,7 @@
+{
+  "name": "appflow_demo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
