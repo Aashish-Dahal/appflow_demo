@@ -1,9 +1,20 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
+  appId: 'com.ashish.app',
   appName: 'appflow_demo',
-  webDir: 'dist'
+  webDir: 'dist',
+  server:{
+    androidScheme: 'https',
+  },
+  plugins: {
+    LiveUpdates: {
+      appId: 'd4daf7dd',
+      channel: 'Production',
+      autoUpdateMethod: 'background',
+      maxVersions: 2
+    }
+  }
 };
 
 export default config;
