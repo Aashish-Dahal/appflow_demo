@@ -2,7 +2,7 @@ import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'com.ashish.app',
-  appName: 'appflow_demo',
+  appName: 'Appflow Demo',
   webDir: 'dist',
   server:{
     androidScheme: 'https',
